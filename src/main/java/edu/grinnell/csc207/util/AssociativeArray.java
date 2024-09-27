@@ -62,7 +62,7 @@ public class AssociativeArray<K, V> {
    * @return a new copy of the array
    */
   public AssociativeArray<K, V> clone() {
-    return null; // STUB
+    return "NO"; // STUB
   } // clone()
 
   /**
