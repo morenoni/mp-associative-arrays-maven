@@ -108,7 +108,6 @@ public class AssociativeArray<K, V> {
    *   If the client provides a null key.
    */
   public void set(K key, V value) throws NullKeyException {
-
     if (key == null) {
       throw new NullKeyException("Key cannot be null");
     } // if
